@@ -6,7 +6,7 @@
 template<typename T>
 class TPQueue {
   // Сюда помещается описание структуры "Очередь с приоритетами"
-    private:
+      private:
     struct ITEM {
       T data;
       ITEM* next;
