@@ -6,9 +6,8 @@
 template<typename T>
 class TPQueue {
   // реализация шаблона очереди с приоритетом на связанном списке
-  
-   private:
-  struct ITEM {
+  private:
+   struct ITEM {
   T data;
   ITEM* next;
   ITEM* prev;
@@ -24,7 +23,7 @@ class TPQueue {
 }
 
  public:
-TPQueue() :head(nullptr), tail(nullptr) {}
+  TPQueue() :head(nullptr), tail(nullptr) {}
 ~TPQueue() {
 while (head)
 pop();
